@@ -1,0 +1,24 @@
+.pap {
+    width: 350px;
+    height: 350px;
+    background-image: url("img.png");
+    background-size: contain;
+    border: 10px solid lightgray;
+
+}
+
+.pap:hover {
+    background-image: url("image.png");
+    background-size: contain;
+    border: 10px solid gray;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
